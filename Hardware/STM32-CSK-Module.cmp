@@ -1,10 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/2/2014 12:38:26 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/5/2014 2:22:41 PM
 
 BeginCmp
 TimeStamp = /547E0580;
 Reference = H1;
 ValeurCmp = CUBESAT-PSPM;
 IdModule  = CONN-LSS-150;
+EndCmp
+
+BeginCmp
+TimeStamp = /54823604;
+Reference = U1;
+ValeurCmp = STM32F4X7V;
+IdModule  = QFP50P1600X1600-100N;
 EndCmp
 
 EndListe

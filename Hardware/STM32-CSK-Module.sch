@@ -4,11 +4,11 @@ LIBS:Aerodyne_v2
 LIBS:STM32-CSK-Module-cache
 EELAYER 27 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2 dec 2014"
+Date "5 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -38,4 +38,168 @@ F 3 "~" H 7000 4100 60  0000 C CNN
 	2    7000 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L STM32F4X7V U1
+U 1 1 54823604
+P 3150 6600
+F 0 "U1" H 3150 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 2950 6600 60  0000 R CNN
+F 2 "" H 3550 6600 60  0000 C CNN
+F 3 "" H 3550 6600 60  0000 C CNN
+	1    3150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 2 1 54823613
+P 3850 6600
+F 0 "U1" H 3850 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 3650 6600 60  0000 R CNN
+F 2 "" H 4250 6600 60  0000 C CNN
+F 3 "" H 4250 6600 60  0000 C CNN
+	2    3850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 3 1 54823622
+P 4550 6600
+F 0 "U1" H 4550 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 4350 6600 60  0000 R CNN
+F 2 "" H 4950 6600 60  0000 C CNN
+F 3 "" H 4950 6600 60  0000 C CNN
+	3    4550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 4 1 54823631
+P 5250 6600
+F 0 "U1" H 5250 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 5050 6600 60  0000 R CNN
+F 2 "" H 5650 6600 60  0000 C CNN
+F 3 "" H 5650 6600 60  0000 C CNN
+	4    5250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 5 1 54823640
+P 5950 6600
+F 0 "U1" H 5950 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 5750 6600 60  0000 R CNN
+F 2 "" H 6350 6600 60  0000 C CNN
+F 3 "" H 6350 6600 60  0000 C CNN
+	5    5950 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 6 1 54823663
+P 6650 6600
+F 0 "U1" H 6650 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 6450 6600 60  0000 R CNN
+F 2 "" H 7050 6600 60  0000 C CNN
+F 3 "" H 7050 6600 60  0000 C CNN
+	6    6650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 7 1 54823677
+P 7350 6600
+F 0 "U1" H 7350 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 7150 6600 60  0000 R CNN
+F 2 "" H 7750 6600 60  0000 C CNN
+F 3 "" H 7750 6600 60  0000 C CNN
+	7    7350 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4X7V U1
+U 8 1 5482368B
+P 8050 6600
+F 0 "U1" H 8050 6700 60  0000 C CNN
+F 1 "STM32F4X7V" V 7850 6600 60  0000 R CNN
+F 2 "" H 8450 6600 60  0000 C CNN
+F 3 "" H 8450 6600 60  0000 C CNN
+	8    8050 6600
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 4600 2    60   ~ 0
+~CS_SD
+Text Notes 3800 4500 2    60   ~ 0
+SD0
+Text Notes 3800 4400 2    60   ~ 0
+SDI0
+Text Notes 3800 4300 2    60   ~ 0
+SCK0
+Text Notes 3800 4200 2    60   ~ 0
+UTX0
+Text Notes 3800 4100 2    60   ~ 0
+URX0
+Text Notes 3800 4000 2    60   ~ 0
+UTX1
+Text Notes 3800 3900 2    60   ~ 0
+URX1
+Text Notes 3800 3800 2    60   ~ 0
+~SS1
+Text Notes 3800 3700 2    60   ~ 0
+SDO1
+Text Notes 3800 3600 2    60   ~ 0
+SDI1
+Text Notes 3800 3500 2    60   ~ 0
+SCK1
+Text Notes 3800 3400 2    60   ~ 0
+~URTS0
+Text Notes 3800 3300 2    60   ~ 0
+~UCTS0
+Text Notes 3800 3200 2    60   ~ 0
+~URTS1
+Text Notes 3800 3100 2    60   ~ 0
+~UCTS1
+Text Notes 3800 2600 2    60   ~ 0
+SCL1
+Text Notes 3800 2500 2    60   ~ 0
+SDA1
+Text Notes 3800 2400 2    60   ~ 0
+SCL2
+Text Notes 3800 2300 2    60   ~ 0
+SDA2
+Text Notes 5000 4000 0    60   ~ 0
+INT1
+Text Notes 5000 3900 0    60   ~ 0
+INT2
+Text Notes 5000 3800 0    60   ~ 0
+AN8
+Text Notes 5000 3700 0    60   ~ 0
+AN9
+Text Notes 5000 3600 0    60   ~ 0
+AN10
+Text Notes 5000 3500 0    60   ~ 0
+AN11
+Text Notes 5000 3400 0    60   ~ 0
+AN12
+Text Notes 5000 3300 0    60   ~ 0
+AN13
+Text Notes 5000 3200 0    60   ~ 0
+AN14
+Text Notes 5000 3100 0    60   ~ 0
+AN15
+Text Notes 5000 3000 0    60   ~ 0
+AN0
+Text Notes 5000 2900 0    60   ~ 0
+AN1
+Text Notes 5000 2800 0    60   ~ 0
+AN2
+Text Notes 5000 2700 0    60   ~ 0
+AN3
+Text Notes 5000 2600 0    60   ~ 0
+AN4
+Text Notes 5000 2500 0    60   ~ 0
+AN5
+Text Notes 5000 2400 0    60   ~ 0
+AN6
+Text Notes 5000 2300 0    60   ~ 0
+AN7
 $EndSCHEMATC
