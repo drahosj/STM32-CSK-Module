@@ -1,17 +1,122 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/5/2014 2:22:41 PM
+Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 12/22/2014 10:38:39 AM
 
 BeginCmp
-TimeStamp = /547E0580;
-Reference = H1;
-ValeurCmp = CUBESAT-PSPM;
-IdModule  = CONN-LSS-150;
+TimeStamp = /54986944;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
-TimeStamp = /54823604;
+TimeStamp = /54986892;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /549867A4;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986A53;
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986AD9;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986B7E;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54987F5C;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986BF0;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /549866A2;
+Reference = C9;
+ValeurCmp = 2.2uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986C31;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498671A;
+Reference = C11;
+ValeurCmp = 2.2uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986C73;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54986CB6;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498699E;
+Reference = FB1;
+ValeurCmp = Ferrite;
+IdModule  = Inductors:INDC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498CF09;
+Reference = H1;
+ValeurCmp = Conn_Cubesat-PPM;
+IdModule  = Connectors:Conn_Samtec-LSS-150;
+EndCmp
+
+BeginCmp
+TimeStamp = /54987DC7;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors:RESC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /549863BA;
 Reference = U1;
-ValeurCmp = STM32F4X7V;
-IdModule  = QFP50P1600X1600-100N;
+ValeurCmp = STM32F417VGT;
+IdModule  = QFP:QFP50P1600X1600-100N;
 EndCmp
 
 EndListe
