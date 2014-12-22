@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 12/22/2014 10:38:39 AM
+Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 12/22/2014 4:53:21 PM
 
 BeginCmp
 TimeStamp = /54986944;
@@ -103,6 +103,13 @@ TimeStamp = /5498CF09;
 Reference = H1;
 ValeurCmp = Conn_Cubesat-PPM;
 IdModule  = Connectors:Conn_Samtec-LSS-150;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498DB5D;
+Reference = J1;
+ValeurCmp = Conn_Cortex-JTAG-10;
+IdModule  = Connectors:Conn_Samtec-FTSH-105-D-RA-K;
 EndCmp
 
 BeginCmp
