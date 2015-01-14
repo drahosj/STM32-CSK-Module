@@ -4,6 +4,7 @@ LIBS:Connectors
 LIBS:Memory
 LIBS:Passives
 LIBS:STMicroelectronics
+LIBS:Microchip
 LIBS:STM32-CSK-Module-cache
 EELAYER 25 0
 EELAYER END
@@ -979,4 +980,19 @@ Wire Wire Line
 Wire Wire Line
 	6900 9800 6900 9700
 Connection ~ 6900 9700
+$Comp
+L S34ML02G104T U?
+U 1 1 54B6F9F3
+P 10300 7750
+F 0 "U?" H 10300 8600 60  0000 C CNN
+F 1 "S34ML02G104T" H 10300 6900 60  0000 C CNN
+F 2 "" H 10300 7600 60  0000 C CNN
+F 3 "" H 10300 7600 60  0000 C CNN
+F 4 "Spansion" H 10300 7750 60  0001 C CNN "Manufacturer"
+F 5 "S34ML02G104TFI010" H 10300 7750 60  0001 C CNN "Manufacturer Part #"
+F 6 "Datasheet" H 10300 7750 60  0001 C CNN "Vendor"
+F 7 "1274-1090-ND" H 10300 7750 60  0001 C CNN "Vendor Part #"
+	1    10300 7750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
