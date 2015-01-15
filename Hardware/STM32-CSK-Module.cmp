@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 1/14/2015 9:23:41 PM
+Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 1/15/2015 12:04:18 AM
 
 BeginCmp
 TimeStamp = /54986944;
@@ -95,28 +95,28 @@ BeginCmp
 TimeStamp = /5498F537;
 Reference = C14;
 ValeurCmp = Capacitor;
-IdModule  = ;
+IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498F4AE;
 Reference = C15;
 ValeurCmp = Capacitor;
-IdModule  = ;
+IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498F5D4;
 Reference = C16;
 ValeurCmp = Capacitor;
-IdModule  = ;
+IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498F63C;
 Reference = C17;
 ValeurCmp = Capacitor;
-IdModule  = ;
+IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
@@ -158,6 +158,20 @@ BeginCmp
 TimeStamp = /54987DC7;
 Reference = R1;
 ValeurCmp = 10k;
+IdModule  = Resistors:RESC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B8E4E0;
+Reference = R2;
+ValeurCmp = 0;
+IdModule  = Resistors:RESC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B8C1E2;
+Reference = R3;
+ValeurCmp = 0;
 IdModule  = Resistors:RESC1608N;
 EndCmp
 
