@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 12/22/2014 4:53:21 PM
+Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 1/14/2015 9:23:41 PM
 
 BeginCmp
 TimeStamp = /54986944;
@@ -92,6 +92,48 @@ IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
+TimeStamp = /5498F537;
+Reference = C14;
+ValeurCmp = Capacitor;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F4AE;
+Reference = C15;
+ValeurCmp = Capacitor;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F5D4;
+Reference = C16;
+ValeurCmp = Capacitor;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F63C;
+Reference = C17;
+ValeurCmp = Capacitor;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B75DC1;
+Reference = C18;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B760AC;
+Reference = C19;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors:CAPC1608N;
+EndCmp
+
+BeginCmp
 TimeStamp = /5498699E;
 Reference = FB1;
 ValeurCmp = Ferrite;
@@ -124,6 +166,27 @@ TimeStamp = /549863BA;
 Reference = U1;
 ValeurCmp = STM32F417VGT;
 IdModule  = QFP:QFP50P1600X1600-100N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B6F9F3;
+Reference = U2;
+ValeurCmp = S34ML02G104T;
+IdModule  = SOP:SOP50P2000-48N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F300;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F442;
+Reference = X2;
+ValeurCmp = 32.768kHz;
+IdModule  = ;
 EndCmp
 
 EndListe
