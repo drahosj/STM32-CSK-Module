@@ -1,4 +1,4 @@
-update=12/22/2014 10:39:01 AM
+update=3/1/2015 5:04:59 PM
 version=1
 last_client=kicad
 [general]
@@ -24,8 +24,8 @@ LastNetListRead=
 UseCmpFile=1
 PadDrill=2.54
 PadDrillOvalY=2.54
-PadSizeH=5.715
-PadSizeV=5.715
+PadSizeH=5.75
+PadSizeV=5.75
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
