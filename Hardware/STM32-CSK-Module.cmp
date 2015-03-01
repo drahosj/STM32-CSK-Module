@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-20 BZR 5331)-product   date = 1/15/2015 12:04:18 AM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/1/2015 3:30:16 PM
 
 BeginCmp
 TimeStamp = /54986944;
@@ -120,20 +120,6 @@ IdModule  = Capacitors:CAPC1608N;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B75DC1;
-Reference = C18;
-ValeurCmp = 0.1uF;
-IdModule  = Capacitors:CAPC1608N;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B760AC;
-Reference = C19;
-ValeurCmp = 0.1uF;
-IdModule  = Capacitors:CAPC1608N;
-EndCmp
-
-BeginCmp
 TimeStamp = /5498699E;
 Reference = FB1;
 ValeurCmp = Ferrite;
@@ -183,24 +169,17 @@ IdModule  = QFP:QFP50P1600X1600-100N;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B6F9F3;
-Reference = U2;
-ValeurCmp = S34ML02G104T;
-IdModule  = SOP:SOP50P2000-48N;
-EndCmp
-
-BeginCmp
 TimeStamp = /5498F300;
 Reference = X1;
 ValeurCmp = 8MHz;
-IdModule  = ;
+IdModule  = Clocks:Crystal_Abracon-ABM3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5498F442;
 Reference = X2;
 ValeurCmp = 32.768kHz;
-IdModule  = ;
+IdModule  = Clocks:Crystal_Abracon-ABS06;
 EndCmp
 
 EndListe
