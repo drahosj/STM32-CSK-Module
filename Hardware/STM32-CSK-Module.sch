@@ -1159,6 +1159,82 @@ Text Label 9850 4900 0    60   ~ 0
 AN6
 Text Label 9850 4800 0    60   ~ 0
 AN7
+Text Label 9850 3400 0    60   ~ 0
+IO47
+Text Label 9850 3500 0    60   ~ 0
+IO46
+Text Label 9850 3600 0    60   ~ 0
+IO45
+Text Label 9850 3700 0    60   ~ 0
+IO44
+Text Label 9850 3800 0    60   ~ 0
+IO43
+Text Label 9850 3900 0    60   ~ 0
+IO42
+Text Label 9850 4000 0    60   ~ 0
+IO41
+Text Label 9850 4100 0    60   ~ 0
+IO40
+Text Label 1800 5500 0    60   ~ 0
+IO40
+Text Label 1800 5600 0    60   ~ 0
+IO41
+Text Label 1800 5700 0    60   ~ 0
+IO42
+Text Label 1800 5900 0    60   ~ 0
+IO43
+Text Label 1800 6000 0    60   ~ 0
+IO44
+Text Label 1800 6100 0    60   ~ 0
+IO45
+Text Label 5900 7000 0    60   ~ 0
+IO46
+Text Label 5900 7100 0    60   ~ 0
+IO47
+Text Label 8400 4100 2    60   ~ 0
+IO16
+Text Label 8400 4000 2    60   ~ 0
+IO17
+Text Label 8400 3900 2    60   ~ 0
+IO18
+Text Label 8400 3800 2    60   ~ 0
+IO19
+Text Label 7600 7300 0    60   ~ 0
+IO16
+Text Label 7600 7200 0    60   ~ 0
+IO17
+Text Label 7600 7100 0    60   ~ 0
+IO18
+Text Label 7600 7000 0    60   ~ 0
+IO19
+Text Label 9850 5000 0    60   ~ 0
+IO31
+Text Label 9850 5100 0    60   ~ 0
+IO30
+Text Label 9850 5200 0    60   ~ 0
+IO29
+Text Label 9850 5300 0    60   ~ 0
+IO28
+Text Label 1800 7400 0    60   ~ 0
+IO29
+Text Label 1800 7600 0    60   ~ 0
+IO31
+Text Label 1800 7500 0    60   ~ 0
+IO30
+Text Label 1800 7300 0    60   ~ 0
+IO28
+Text Label 9850 5400 0    60   ~ 0
+IO27
+Text Label 9850 5500 0    60   ~ 0
+IO26
+Text Label 9850 5600 0    60   ~ 0
+IO25
+Text Label 9850 5700 0    60   ~ 0
+IO24
+Text Label 1800 7800 0    60   ~ 0
+IO27
+Text Label 1800 7900 0    60   ~ 0
+IO26
 Wire Wire Line
 	1500 2300 1700 2300
 Wire Wire Line
@@ -1570,22 +1646,6 @@ Wire Wire Line
 	9850 4000 9700 4000
 Wire Wire Line
 	9850 4100 9700 4100
-Text Label 9850 3400 0    60   ~ 0
-IO47
-Text Label 9850 3500 0    60   ~ 0
-IO46
-Text Label 9850 3600 0    60   ~ 0
-IO45
-Text Label 9850 3700 0    60   ~ 0
-IO44
-Text Label 9850 3800 0    60   ~ 0
-IO43
-Text Label 9850 3900 0    60   ~ 0
-IO42
-Text Label 9850 4000 0    60   ~ 0
-IO41
-Text Label 9850 4100 0    60   ~ 0
-IO40
 Wire Wire Line
 	1700 5500 1800 5500
 Wire Wire Line
@@ -1594,36 +1654,48 @@ Wire Wire Line
 	1800 5700 1700 5700
 Wire Wire Line
 	1800 6200 1700 6200
-Text Label 1800 5500 0    60   ~ 0
-IO40
-Text Label 1800 5600 0    60   ~ 0
-IO41
-Text Label 1800 5700 0    60   ~ 0
-IO42
-Text Label 1800 5900 0    60   ~ 0
-IO43
-Text Label 1800 6000 0    60   ~ 0
-IO44
-Text Label 1800 6100 0    60   ~ 0
-IO45
-Text Label 5900 7000 0    60   ~ 0
-IO46
-Text Label 5900 7100 0    60   ~ 0
-IO47
-Text Label 8400 4100 2    60   ~ 0
-IO16
-Text Label 8400 4000 2    60   ~ 0
-IO17
-Text Label 8400 3900 2    60   ~ 0
-IO18
-Text Label 8400 3800 2    60   ~ 0
-IO19
-Text Label 7500 7300 0    60   ~ 0
-IO16
-Text Label 7500 7200 0    60   ~ 0
-IO17
-Text Label 7500 7100 0    60   ~ 0
-IO18
-Text Label 7500 7000 0    60   ~ 0
-IO19
+Wire Wire Line
+	9700 5000 9850 5000
+Wire Wire Line
+	9700 5100 9850 5100
+Wire Wire Line
+	9700 5200 9850 5200
+Wire Wire Line
+	9700 5300 9850 5300
+Wire Wire Line
+	1700 7300 1800 7300
+Wire Wire Line
+	1800 7400 1700 7400
+Wire Wire Line
+	1800 7500 1700 7500
+Wire Wire Line
+	1800 7600 1700 7600
+Wire Wire Line
+	9700 5400 9850 5400
+Wire Wire Line
+	9700 5500 9850 5500
+Wire Wire Line
+	9700 5600 9850 5600
+Wire Wire Line
+	9700 5700 9850 5700
+Wire Wire Line
+	1800 7800 1700 7800
+Wire Wire Line
+	1700 7900 1800 7900
+Wire Wire Line
+	7600 7000 7500 7000
+Wire Wire Line
+	7600 7100 7500 7100
+Wire Wire Line
+	7500 7200 7600 7200
+Wire Wire Line
+	7600 7300 7500 7300
+Wire Wire Line
+	7600 6900 7500 6900
+Wire Wire Line
+	7600 6800 7500 6800
+Text Label 7600 6800 0    60   ~ 0
+IO24
+Text Label 7600 6900 0    60   ~ 0
+IO25
 $EndSCHEMATC
