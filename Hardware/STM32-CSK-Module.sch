@@ -1010,22 +1010,6 @@ NoConn ~ 12300 5700
 NoConn ~ 12300 5800
 NoConn ~ 11100 4700
 NoConn ~ 11100 4800
-Text Notes 9800 3400 0    60   ~ 0
-A
-Text Notes 9800 3500 0    60   ~ 0
-A
-Text Notes 9800 3600 0    60   ~ 0
-A
-Text Notes 9800 3700 0    60   ~ 0
-A
-Text Notes 9800 3800 0    60   ~ 0
-A
-Text Notes 9800 3900 0    60   ~ 0
-A
-Text Notes 9800 4000 0    60   ~ 0
-A
-Text Notes 9800 4100 0    60   ~ 0
-A
 Text Notes 9800 4200 0    60   ~ 0
 A
 Text Notes 9800 4300 0    60   ~ 0
@@ -1041,6 +1025,22 @@ A
 Text Notes 9800 4800 0    60   ~ 0
 A
 Text Notes 9800 4900 0    60   ~ 0
+A
+Text Notes 9800 3400 0    60   ~ 0
+A
+Text Notes 9800 3500 0    60   ~ 0
+A
+Text Notes 9800 3600 0    60   ~ 0
+A
+Text Notes 9800 3700 0    60   ~ 0
+A
+Text Notes 9800 3800 0    60   ~ 0
+A
+Text Notes 9800 3900 0    60   ~ 0
+A
+Text Notes 9800 4000 0    60   ~ 0
+A
+Text Notes 9800 4100 0    60   ~ 0
 A
 Text Notes 9800 5000 0    60   ~ 0
 I
@@ -1107,6 +1107,58 @@ F 9 "5%" V 1800 3600 50  0000 L CNN "Tolerance"
 $EndComp
 Text Label 1300 3400 1    60   ~ 0
 VREF
+Text Label 11000 4900 2    60   ~ 0
+~ON_SD
+NoConn ~ 11100 5000
+NoConn ~ 11100 5100
+NoConn ~ 11100 5200
+NoConn ~ 11100 5300
+NoConn ~ 11100 5400
+NoConn ~ 11100 5500
+NoConn ~ 11100 5600
+NoConn ~ 11100 5700
+NoConn ~ 11100 5800
+NoConn ~ 12300 4400
+Text Label 12400 4300 0    60   ~ 0
+~RESET
+NoConn ~ 12300 4100
+NoConn ~ 12300 4200
+Text Label 15400 9300 0    60   ~ 0
+~RESET
+Text Label 15400 9400 0    60   ~ 0
+~ON_SD
+Text Label 1800 4900 0    60   ~ 0
+AN2
+Text Label 1800 5000 0    60   ~ 0
+AN3
+Text Label 1800 5100 0    60   ~ 0
+AN4
+Text Label 1800 5200 0    60   ~ 0
+AN5
+Text Label 1800 5300 0    60   ~ 0
+AN6
+Text Label 1800 5400 0    60   ~ 0
+AN7
+Text Label 4400 6800 0    60   ~ 0
+AN0
+Text Label 4400 6900 0    60   ~ 0
+AN1
+Text Label 9850 4200 0    60   ~ 0
+AN2
+Text Label 9850 4300 0    60   ~ 0
+AN3
+Text Label 9850 4400 0    60   ~ 0
+AN4
+Text Label 9850 4500 0    60   ~ 0
+AN5
+Text Label 9850 4600 0    60   ~ 0
+AN1
+Text Label 9850 4700 0    60   ~ 0
+AN0
+Text Label 9850 4900 0    60   ~ 0
+AN6
+Text Label 9850 4800 0    60   ~ 0
+AN7
 Wire Wire Line
 	1500 2300 1700 2300
 Wire Wire Line
@@ -1448,30 +1500,10 @@ Wire Wire Line
 	1400 3500 1300 3500
 Wire Wire Line
 	1900 3500 2600 3500
-Text Label 11000 4900 2    60   ~ 0
-~ON_SD
 Wire Wire Line
 	11000 4900 11100 4900
-NoConn ~ 11100 5000
-NoConn ~ 11100 5100
-NoConn ~ 11100 5200
-NoConn ~ 11100 5300
-NoConn ~ 11100 5400
-NoConn ~ 11100 5500
-NoConn ~ 11100 5600
-NoConn ~ 11100 5700
-NoConn ~ 11100 5800
-NoConn ~ 12300 4400
-Text Label 12400 4300 0    60   ~ 0
-~RESET
 Wire Wire Line
 	12400 4300 12300 4300
-NoConn ~ 12300 4100
-NoConn ~ 12300 4200
-Text Label 15400 9300 0    60   ~ 0
-~RESET
-Text Label 15400 9400 0    60   ~ 0
-~ON_SD
 Wire Wire Line
 	1700 4900 1800 4900
 Wire Wire Line
@@ -1488,20 +1520,110 @@ Wire Wire Line
 	4300 6800 4400 6800
 Wire Wire Line
 	4300 6900 4400 6900
-Text Label 1800 4900 0    60   ~ 0
-AN2
-Text Label 1800 5000 0    60   ~ 0
-AN3
-Text Label 1800 5100 0    60   ~ 0
-AN4
-Text Label 1800 5200 0    60   ~ 0
-AN5
-Text Label 1800 5300 0    60   ~ 0
-AN6
-Text Label 1800 5400 0    60   ~ 0
-AN7
-Text Label 4400 6800 0    60   ~ 0
-AN0
-Text Label 4400 6900 0    60   ~ 0
-AN1
+Wire Wire Line
+	9700 4200 9850 4200
+Wire Wire Line
+	9700 4300 9850 4300
+Wire Wire Line
+	9700 4400 9850 4400
+Wire Wire Line
+	9700 4500 9850 4500
+Wire Wire Line
+	9700 4600 9850 4600
+Wire Wire Line
+	9700 4700 9850 4700
+Wire Wire Line
+	9700 4800 9850 4800
+Wire Wire Line
+	9700 4900 9850 4900
+Wire Wire Line
+	8400 3800 8500 3800
+Wire Wire Line
+	8500 3900 8400 3900
+Wire Wire Line
+	8500 4000 8400 4000
+Wire Wire Line
+	8500 4100 8400 4100
+Wire Wire Line
+	1700 5900 1800 5900
+Wire Wire Line
+	1700 6000 1800 6000
+Wire Wire Line
+	1700 6100 1800 6100
+Wire Wire Line
+	5800 7000 5900 7000
+Wire Wire Line
+	5800 7100 5900 7100
+Wire Wire Line
+	9700 3400 9850 3400
+Wire Wire Line
+	9700 3500 9850 3500
+Wire Wire Line
+	9700 3600 9850 3600
+Wire Wire Line
+	9700 3700 9850 3700
+Wire Wire Line
+	9850 3800 9700 3800
+Wire Wire Line
+	9850 3900 9700 3900
+Wire Wire Line
+	9850 4000 9700 4000
+Wire Wire Line
+	9850 4100 9700 4100
+Text Label 9850 3400 0    60   ~ 0
+IO47
+Text Label 9850 3500 0    60   ~ 0
+IO46
+Text Label 9850 3600 0    60   ~ 0
+IO45
+Text Label 9850 3700 0    60   ~ 0
+IO44
+Text Label 9850 3800 0    60   ~ 0
+IO43
+Text Label 9850 3900 0    60   ~ 0
+IO42
+Text Label 9850 4000 0    60   ~ 0
+IO41
+Text Label 9850 4100 0    60   ~ 0
+IO40
+Wire Wire Line
+	1700 5500 1800 5500
+Wire Wire Line
+	1800 5600 1700 5600
+Wire Wire Line
+	1800 5700 1700 5700
+Wire Wire Line
+	1800 6200 1700 6200
+Text Label 1800 5500 0    60   ~ 0
+IO40
+Text Label 1800 5600 0    60   ~ 0
+IO41
+Text Label 1800 5700 0    60   ~ 0
+IO42
+Text Label 1800 5900 0    60   ~ 0
+IO43
+Text Label 1800 6000 0    60   ~ 0
+IO44
+Text Label 1800 6100 0    60   ~ 0
+IO45
+Text Label 5900 7000 0    60   ~ 0
+IO46
+Text Label 5900 7100 0    60   ~ 0
+IO47
+Text Label 8400 4100 2    60   ~ 0
+IO16
+Text Label 8400 4000 2    60   ~ 0
+IO17
+Text Label 8400 3900 2    60   ~ 0
+IO18
+Text Label 8400 3800 2    60   ~ 0
+IO19
+Text Label 7500 7300 0    60   ~ 0
+IO16
+Text Label 7500 7200 0    60   ~ 0
+IO17
+Text Label 7500 7100 0    60   ~ 0
+IO18
+Text Label 7500 7000 0    60   ~ 0
+IO19
 $EndSCHEMATC
