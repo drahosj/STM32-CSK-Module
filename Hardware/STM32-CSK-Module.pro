@@ -1,4 +1,4 @@
-update=3/1/2015 5:04:59 PM
+update=3/3/2015 3:58:43 PM
 version=1
 last_client=kicad
 [general]
@@ -8,15 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=../../KiCadLib
-[eeschema/libraries]
-LibName1=power
-LibName2=Symbols/Connectors
-LibName3=Symbols/Memory
-LibName4=Symbols/Passives
-LibName5=Symbols/STMicroelectronics
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -37,3 +28,12 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=../../KiCadLib
+[eeschema/libraries]
+LibName1=power
+LibName2=Symbols/Connectors
+LibName3=Symbols/Memory
+LibName4=Symbols/Passives
+LibName5=Symbols/STMicroelectronics

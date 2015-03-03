@@ -558,28 +558,6 @@ F 3 "" H 4700 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_Cubesat-PPM H1
-U 1 1 5498CF09
-P 9100 4600
-F 0 "H1" H 9100 5900 60  0000 C CNN
-F 1 "Conn_Cubesat-PPM" H 9100 3300 60  0000 C CNN
-F 2 "Connectors:Conn_Samtec-LSS-150" H 9100 4600 60  0001 C CNN
-F 3 "" H 9100 4600 60  0000 C CNN
-	1    9100 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_Cubesat-PPM H1
-U 2 1 5498CF75
-P 11700 4600
-F 0 "H1" H 11700 5900 60  0000 C CNN
-F 1 "Conn_Cubesat-PPM" H 11700 3300 60  0000 C CNN
-F 2 "Connectors:Conn_Samtec-LSS-150" H 11700 4600 60  0001 C CNN
-F 3 "" H 11700 4600 60  0000 C CNN
-	2    11700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR017
 U 1 1 5498D3B1
 P 12500 3700
@@ -1698,4 +1676,26 @@ Text Label 7600 6800 0    60   ~ 0
 IO24
 Text Label 7600 6900 0    60   ~ 0
 IO25
+$Comp
+L Conn_Cubesat-PPM H1
+U 1 1 54F63AF6
+P 9100 4600
+F 0 "H1" H 9100 5900 60  0000 C CNN
+F 1 "Conn_Cubesat-PPM" H 9100 3300 60  0000 C CNN
+F 2 "" H 9100 4600 60  0000 C CNN
+F 3 "" H 9100 4600 60  0000 C CNN
+	1    9100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Cubesat-PPM H1
+U 2 1 54F63B1B
+P 11700 4600
+F 0 "H1" H 11700 5900 60  0000 C CNN
+F 1 "Conn_Cubesat-PPM" H 11700 3300 60  0000 C CNN
+F 2 "" H 11700 4600 60  0000 C CNN
+F 3 "" H 11700 4600 60  0000 C CNN
+	2    11700 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
